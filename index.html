@@ -22,17 +22,36 @@
         </div>
     </main>
     <form action="#" class="form">
-        <div>
-            <label>Lugar u hotel</label>
-            <input type="text" placeholder="Escribe tu destino">
+        <div class="form__container">
+            <label class="form__label">Lugar u hotel</label>
+            <input class="form__input-text" type="text" placeholder="Escribe tu destino">
         </div>
         <div>
-            <label>Fecha de llegada</label>
-            <input type="date">
+            <label class="form__label">Fecha de llegada</label>
+            <input class="form__input-date" type="date">
         </div>
         <div>
-            <label>Fecha de llegada</label>
+            <label class="form__label">Fecha de llegada</label>
+            <input class="form__input-date" type="date">
         </div>
+        <div>
+            <label class="form__label">Huéspedes</label>
+            <select class="form__select" name="">
+                <option value="1">Hotel</option>
+                <option value="2">Hostel</option>
+                <option value="3">Departamento</option>
+            </select>
+        </div>
+        <div>
+            <label class="form__label">Habitaciones</label>
+            <select class="form__select" name="">
+                <option value="1">Habitación</option>
+                <option value="2">Habitaciones</option>
+                <option value="3">Habitaciones</option>
+                <option value="4">+ de 4</option>
+            </select>
+        </div>
+        <button type="submit" class="button button_default">Buscar</button>
     </form>
 </body>
 </html>
