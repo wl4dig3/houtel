@@ -1,0 +1,13 @@
+.main {
+  position: absolute;
+  left: 50%;
+  top: 9.5vh;
+  transform: translateX(-50%);
+}
+
+.main_container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
